@@ -1,0 +1,25 @@
+.categories-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.cards-icones{
+    width: 312px;
+    height: 220px;
+    display: inline-block;
+    background-color: var(--background-secondary-color);
+    border-radius: 8px;
+    text-align: center;
+}
+a.cards-icones{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    text-decoration: none;
+    color: var(--text-primary-color);
+}
+a.cards-icones img{
+    width: 80px;
+    height: 80px;
+    margin: 41px 116px 24px;
+} 
