@@ -20,13 +20,6 @@
     background: url(../img/Osaka-mobile.jpg) no-repeat;
     background-size: cover;
 }
-.destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
-}
 
 .item h4{
     font-size: 28px;
