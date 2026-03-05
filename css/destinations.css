@@ -1,11 +1,11 @@
 .destination-items{
-    width: 312px;
+    /* width: 312px;
     height: 754px;
-    margin: 0 auto;
-    /* display: flex;
+    margin: 0 auto; */
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px; */
+    gap: 24px;
 }
 
 .img-item.tokyo{
@@ -22,16 +22,11 @@
 }
 
 .item h4{
-    font-size: 28px;
-    font-weight: var(--title-weight);
     color: var(--text-primary-color);
     margin: 24px 0;
 }
 .item p{
-    font-size: 20px;
-    font-weight: var(--text-weight);
     color: var(--text-primary-color);
-    line-height: 32px;
     margin: 24px 0;
 }
 .item .button {
@@ -44,7 +39,7 @@
 @media screen and (min-width: 768px){
     .destination-items{
         width: 648px;
-        height: 718px;
+        /* height: 718px; */
     }
     .img-item.img-item.tokyo{
         width: 100%;
@@ -66,9 +61,9 @@
      .destination-items{
         width: 588px;
         height: 750px;
-        /* flex-direction: row;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 24px; */
+        gap: 24px;
     }
 }
