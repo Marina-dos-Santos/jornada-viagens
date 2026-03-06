@@ -60,6 +60,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .offers-cards header {
+    padding: 0px 32px;
+  }
   .offers-cards{
     margin-bottom: 104px;
   }
