@@ -6,10 +6,6 @@
   margin-top: 24px;
   width: 100%;
 }
-.payments .content-container {
-  display: flex;
-  justify-content: space-between;
-}
 
 .payments .image-gallery .image.first {
   background: url(../img/gallery1-mobile.png) no-repeat;
@@ -41,10 +37,15 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .payments .content-container .text-content{
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .payments .content-container .text-content {
     width: 385px;
   }
-  .payments .content-container .image-gallery{
+  .payments .content-container .image-gallery {
     width: 790px;
+    margin-top: 0;
   }
 }
