@@ -5,6 +5,7 @@
   height: 460px;
   margin-top: 24px;
   width: 100%;
+  margin-bottom: 88px;
 }
 
 .payments .image-gallery .image.first {
@@ -40,6 +41,7 @@
   .payments .content-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 64px;
   }
   .payments .content-container .text-content {
     width: 385px;
