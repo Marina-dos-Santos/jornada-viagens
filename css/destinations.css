@@ -61,6 +61,7 @@
         flex-wrap: nowrap;
         justify-content: center;
         gap: 24px;
+        margin-bottom: 104px;
     }
     .img-item.img-item.osaka{
         background-position: center;

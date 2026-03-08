@@ -41,6 +41,7 @@
   .payments .content-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 64px;
   }
   .payments .content-container .text-content {
     width: 385px;
