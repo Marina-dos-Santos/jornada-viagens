@@ -4,6 +4,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 :root {
   --primary-color: #8f0101;
   --secondary-color: #b81515;
@@ -36,14 +37,17 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
+
 section {
   width: 312px;
   margin: 0 auto;
 }
+
 section.hero,
 section.bottom-hero {
   width: 100%;
@@ -66,6 +70,7 @@ section.bottom-hero {
   border: none;
   margin: 16px auto 32px;
 }
+
 .content-title{
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -76,8 +81,9 @@ section.bottom-hero {
   font-weight: var(--text-weight);
   line-height: 32px;
 }
+
 .button {
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
@@ -87,6 +93,7 @@ section.bottom-hero {
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -95,12 +102,12 @@ section.bottom-hero {
   }
   .section-title{
     width: 100%;
-    margin: 0 auto 32px;
   }
   .section-title h2 {
     font-size: 32px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   section {
     width: 900px;
@@ -109,6 +116,7 @@ section.bottom-hero {
     background-color: var(--primary-color);
   }
 }
+
 @media screen and (min-width: 1440px) {
   section {
     width: 1200px;
