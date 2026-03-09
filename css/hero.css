@@ -40,6 +40,7 @@
 .travel-packages .hero-content{
   padding: 65px 24px;
 }
+
 .travel-packages .hero-content h1{
   font-size: 48px;
   font-weight: var(--title-weight);
@@ -52,7 +53,7 @@
   border: none;
   margin: 16px 0 32px;
 }
-.travel-packages .hero-content p{
+.travel-packages .hero-content p {
   font-size: 20px;
   font-weight: var(--text-weight);
   color: var(--text-secondary-color); 
