@@ -22,7 +22,8 @@
   line-height: 1.5;
 }
 /* PACOTES DE VIAGENS */
-.travel-packages.hero{
+.travel-packages.hero,
+.blog.hero {
   margin-bottom: 88px;
 }
 
@@ -37,28 +38,45 @@
   background-size: cover;
 }
 
-.travel-packages .hero-content{
+.travel-packages .hero-content,
+.blog .hero-content{
   padding: 65px 24px;
 }
 
-.travel-packages .hero-content h1{
+.travel-packages .hero-content h1,
+.blog .hero-content h1{
   font-size: 48px;
   font-weight: var(--title-weight);
   color: var(--text-secondary-color);
 }
-.travel-packages .hero-content hr {
+.travel-packages .hero-content hr,
+.blog .hero-content hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
   margin: 16px 0 32px;
 }
-.travel-packages .hero-content p {
+.travel-packages .hero-content p,
+.blog .hero-content p{
   font-size: 20px;
   font-weight: var(--text-weight);
   color: var(--text-secondary-color); 
   line-height: 32px;
 }
+
+/* ESPECÍFICO PÁGINA DO BLOG */
+
+.blog .hero-img {
+  height: 460px;
+  background: url(../img/blog/blog-hero-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+/* .travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+} */
 
 @media screen and (min-width: 768px) {
   .hero .hero-img {
